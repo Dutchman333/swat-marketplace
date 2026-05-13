@@ -1,0 +1,20 @@
+# OS / editors
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*.swo
+.vscode/
+.idea/
+
+# Python / Node artifacts (in case any skill ever ships scripts)
+__pycache__/
+*.py[cod]
+node_modules/
+.venv/
+venv/
+
+# SWAT operation runtime — never commit operation-level data
+operations/
+.operation/
+*.log
