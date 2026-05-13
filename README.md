@@ -13,6 +13,7 @@ This repository follows the same structure as the [official SWAT marketplace](ht
 | Name | Version | Description |
 |---|---|---|
 | [`purchase-advisor`](squads/purchase-advisor) | 1.0.0 | Cross-category procurement research — supplier investigation, brand/model comparison, multi-source price intelligence, RFQ analysis, and negotiation strategy. Outputs a self-contained Chinese HTML report. |
+| [`travel-planner`](squads/travel-planner) | 1.0.0 | Personalized travel planning advisor — destination scouting, itinerary design, hotel/flight comparison with multi-platform price intelligence, and customized recommendations driven by an embedded family profile. Outputs a self-contained Chinese HTML report. |
 
 ### Skills
 
@@ -23,8 +24,16 @@ This repository follows the same structure as the [official SWAT marketplace](ht
 | [`procurement-frameworks`](skills/procurement-frameworks) | 1.0.0 | Methodology library for procurement decisions: 5R Model, Kraljic Matrix, Carter 10Cs, TCO, ABC/XYZ, negotiation leverage. |
 | [`solution-discovery`](skills/solution-discovery) | 1.0.0 | Open-vision research methodology — leverages 5-source coverage and anti-mainstream-bias guardrails when scouting brands/models. |
 | [`supplier-due-diligence`](skills/supplier-due-diligence) | 1.0.0 | Standardized supplier background investigation checklist (~30 items across 5 categories: registration, financials, qualifications, reputation, risk signals). |
+| [`personal-travel-profile`](skills/personal-travel-profile) | 1.0.0 | **Template** for the operator's embedded travel profile — family composition, scenarios, loyalty memberships, airline / hotel preferences, budget bands, off-peak preference, visa status, avoid list. **Customize before first use** — see the file's Setup section. |
+| [`travel-frameworks`](skills/travel-frameworks) | 1.0.0 | Travel planning methodology library — pacing rules (Scenario 1 family / Scenario 2 couple-or-solo), budgeting templates, destination intelligence checklist, and off-peak detection rules. |
+| [`travel-platforms-directory`](skills/travel-platforms-directory) | 1.0.0 | Travel booking and price-comparison platform registry — domestic vs international OTAs, airline aggregators, hotel direct-booking sites (IHG / Marriott / Hilton / etc.), and a category-to-platform decision tree. |
+| [`travel-deliverables`](skills/travel-deliverables) | 1.0.0 | Self-contained HTML output templates for the six standard travel deliverables — destination comparison, hotel comparison, flight comparison, day-by-day itinerary, budget breakdown, and visa advisory. |
 
-> **Squad → Skill dependency**: `purchase-advisor` depends on all 5 skills above plus 2 already-published upstream skills (`scientific-method`, `debrief`). Install those from the official marketplace if you don't have them.
+> **Squad → Skill dependencies**:
+> - `purchase-advisor` depends on the 5 `procurement-*` / `price-channel-directory` / `solution-discovery` / `supplier-due-diligence` skills above + 2 upstream skills (`scientific-method`, `debrief`).
+> - `travel-planner` depends on 4 `travel-*` / `personal-travel-profile` skills above + 1 upstream skill (`scientific-method`).
+>
+> Install upstream skills from [LangSensei/swat-marketplace](https://github.com/LangSensei/swat-marketplace) if you don't have them.
 
 ---
 
