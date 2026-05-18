@@ -1,5 +1,8 @@
 # Dutchman333's SWAT Marketplace
 
+> 🗄️ **ARCHIVED · 2026-05-18** — SWAT 体系已被作者停用 (2026-05-17), 本仓库不再更新。
+> 历史 squads/skills 保留作为公开 portfolio。如对其中内容感兴趣, 可自行 fork/clone 参考。
+
 A personal capability catalog for the [SWAT](https://github.com/LangSensei/swat) system — published independently by [@Dutchman333](https://github.com/Dutchman333).
 
 This repository follows the same structure as the [official SWAT marketplace](https://github.com/LangSensei/swat-marketplace) so any SWAT-compatible agent (or any AI that can fetch raw GitHub files) can install the squads and skills below.
